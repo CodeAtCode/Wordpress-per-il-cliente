@@ -14,6 +14,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* Cosa sono i **Commenti**
 * Avanzate
 	* Aggiungere Album (NextGen)
+	* Backup
 
 
 #Primo uso
@@ -60,4 +61,14 @@ Avanzate
 
 ###Aggiungere Album (NextGen)
 
-Tramite la barra laterale cliccare su **Galleria** e poi
+Tramite la barra laterale cliccare su **Galleria** e poi su **aggiungi una nuova galleria**.
+Impostare il nome della galleria usando dei - come spazi.
+Tutte le foto da caricare devono avere una risoluzione minore di 3000 px altrimenti non possono essere elaborate da Wordpress quindi vanno ridimensionate precedentemente sul proprio computer.
+Una volta che sono state ridimensionate cliccare su **Carica immagini** (nella schermata di prima), selezionare la galleria creata poco prima in cui verranno caricate le foto tramite il pulsante **Selezionare File**, selezionare le foto da caricare e premere **OK**.
+Premere il pulsante carica immagini e lasciare il sito a caricare le foto.
+Una volta fatto andare in **Gestione galleria** presente nella barra laterale e cliccare sull'album appena caricato.
+Compilare i vari campi tranne percorso, in **Collega alla pagina** scegliere **Foto**, scegliere la foto d'anteprima dell'album e premere **Salva modifiche**.
+
+###Backup
+
+Il backup del database è configurato per essere mandato ogni settimana all'email di ___________________.
