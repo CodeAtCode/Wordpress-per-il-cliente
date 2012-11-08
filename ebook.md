@@ -13,6 +13,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 * Commenti
 	* Cosa sono i **Commenti**
 * Avanzate
+	* Aggiungere Album (NextGen)
 
 
 #Primo uso
@@ -50,3 +51,13 @@ Commenti
 -------------
 
 ###Cosa sono i commenti
+
+I **Commenti ** sono uno dei modi per vedere quanto il sito ha successo.
+Vanno moderati nel senso cancellati o approvati per l'apparizione nel sito.
+
+Avanzate
+-------------
+
+###Aggiungere Album (NextGen)
+
+Tramite la barra laterale cliccare su **Galleria** e poi
