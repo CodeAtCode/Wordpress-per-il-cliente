@@ -24,6 +24,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 * Avanzate
 	* Aggiungere **Album** (NextGen)
 	* **Backup**
+	* Aggiungere un **Evento** (Event Manager)
 * FAQ
 
 #Primo uso
@@ -74,6 +75,10 @@ Per caricare una o più foto nell'articolo basta cliccare sul pulsante **Carica/
 Si aprirà una finestra dove è possibile trascinare i file o selezionarli.
 Una volta che è stata caricata la foto può essere inserita nell'articolo cliccandoci sopra nella lista altrimenti se è solamente una verrà subito scelta.
 Fatto questo in basso c'è un pulsante **Inserisci immagine nell'articolo**, cliccandoci l'immagine verrà posizionata dove si trova il cursore di scrittura.
+
+###Cestino
+
+Il comportamento del cestino è lo **stesso** di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino per una eventuale modifica.
 
 Pagine
 -------------
