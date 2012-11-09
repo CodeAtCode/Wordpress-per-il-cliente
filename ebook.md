@@ -25,6 +25,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* Aggiungere **Album** (NextGen)
 	* **Backup**
 	* Aggiungere un **Evento** (Event Manager)
+	* Aggiungere un **Luogo** (Event Manager)
 * FAQ
 
 #Primo uso
@@ -126,6 +127,19 @@ Compilare i vari campi tranne percorso, in **Collega alla pagina** scegliere **F
 ###Backup
 
 Il backup del database è configurato per essere mandato ogni settimana all'email di ___________________.
+
+###Aggiungere un Evento (Event Manager)
+
+Tramite la barra laterale andare su **Eventi** e cliccare su **Aggiungi Evento**.
+Vi troverete davanti una interfaccia simile a quella degli articoli con alcuni box nuovi come **Quando** dove impostare il periodo dell'evento (essenziale!), in **Dove** potrete scegliere il luogo dell'evento, in **Prenotazioni** la possibilità di far prenotare l'evento agli iscritti al sito così da poter gestire il numero.
+Inoltre all'attivazione delle prenotazione sarà possibile impostare il numero dei partecipanti e il costo del biglietto.
+
+###Aggiungere un Luogo (Event Manager)
+
+Sempre tramite la barra laterale andando su **Eventi** e poi su **Luoghi** ci troveremo davanti una schermata uguale alla **lista degli Articoli**.
+Cliccando in alto su **Aggiungi luogo** ci troveremo, come sempre davanti ad una schermata uguale alla scrittura degli **Articoli**.
+Sarà presente un box **Dove** dove andranno messi i dati del luogo come indirizzo ecc che verranno utilizzati per mostrare anche la cartina di Google Maps.
+
 
 FAQ
 -------------
