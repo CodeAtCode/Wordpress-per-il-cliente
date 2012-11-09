@@ -10,11 +10,14 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* La **Barra laterale**
 	* Come scrivere un **Articolo**
 	* Cos'è l' **Immagine in evidenza**
+* Articoli
+	* Le **Bozze**
+	* Inserire **foto** negli articoli
 * Commenti
 	* Cosa sono i **Commenti**
 * Avanzate
-	* Aggiungere Album (NextGen)
-	* Backup
+	* Aggiungere **Album** (NextGen)
+	* **Backup**
 * FAQ
 
 #Primo uso
@@ -47,6 +50,18 @@ Sulla destra scorrendo la pagina è possibile impostare la/e **categoria**/e che
 ###Cos'è l'immagine in evidenza
 
 Tramite questo box è possibile impostare l'immagine del post che a seconda del tema utilizzato nel sito verrà usata per la slide o semplicemente per l'immagine dell'articolo nella **Home**.
+
+Articoli
+-------------
+
+###Le Bozze
+
+Quando si scrive un articolo viene **salvato automaticamente** come bozza ma è possibile salvare l'articolo direttamente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.
+Per **salvarlo come bozza** sul box a destra nella pagina di scrittura dell'articolo c'è il pulsante **Salva come bozza**.
+Per **poterlo aprire come bozza** successivamente tramite la barra laterale andare su **Articoli** e cliccare su **Lista articoli**.
+In questa lista ci sono diversi link importanti: **Tutti**, **Pubblicati**, **Bozze**, **Cestinati**.
+Questi link appariranno se ci saranno degli articoli secondo il loro stato, quindi nel nostro caso basterà cliccare su **Bozze** per poter modificare il nostro articolo iniziato precedentemente.
+
 
 Commenti
 -------------
