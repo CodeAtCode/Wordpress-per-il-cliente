@@ -1,4 +1,4 @@
-Wordpress per il Cliente 
+Wordpress per il Cliente
 =============
 http://mte90.github.com/Wordpress-per-il-cliente/
 ***
@@ -9,13 +9,13 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* Cos'è la **Bacheca**
 	* La **Barra laterale**
 	* Come scrivere un **Articolo**
-	* Cos'è l'**Immagine in evidenza**
+	* Cos'è l' **Immagine in evidenza**
 * Commenti
 	* Cosa sono i **Commenti**
 * Avanzate
 	* Aggiungere Album (NextGen)
 	* Backup
-
+* FAQ
 
 #Primo uso
 -------------
@@ -72,3 +72,10 @@ Compilare i vari campi tranne percorso, in **Collega alla pagina** scegliere **F
 ###Backup
 
 Il backup del database è configurato per essere mandato ogni settimana all'email di ___________________.
+
+FAQ
+-------------
+
+Contatti: mte90net@gmail.com
+
+Per migliorare l'eBook visita il sito [http://mte90.github.com/Wordpress-per-il-cliente/](http://mte90.github.com/Wordpress-per-il-cliente/)
