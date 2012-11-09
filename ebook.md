@@ -13,6 +13,10 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 * Articoli
 	* Le **Bozze**
 	* Inserire **foto** negli articoli
+* Pagine
+	* Usarle con **cautela**
+* Link
+	* Aggiungere **Link**
 * Commenti
 	* Cosa sono i **Commenti**
 * Avanzate
