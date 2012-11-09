@@ -66,13 +66,20 @@ Per **poterlo aprire come bozza** successivamente tramite la barra laterale anda
 In questa lista ci sono diversi link importanti: **Tutti**, **Pubblicati**, **Bozze**, **Cestinati**.
 Questi link appariranno se ci saranno degli articoli secondo il loro stato, quindi nel nostro caso basterà cliccare su **Bozze** per poter modificare il nostro articolo iniziato precedentemente.
 
+###Inserire foto negli articoli
+
+Per caricare una o più foto nell'articolo basta cliccare sul pulsante **Carica/Inserisci** sopra il box di scrittura.
+Si aprirà una finestra dove è possibile trascinare i file o selezionarli.
+Una volta che è stata caricata la foto può essere inserita nell'articolo cliccandoci sopra nella lista altrimenti se è solamente una verrà subito scelta.
+Fatto questo in basso c'è un pulsante **Inserisci immagine nell'articolo**, cliccandoci l'immagine verrà posizionata dove si trova il cursore di scrittura.
+Questo metodo funziona anche con le pagine.
 
 Commenti
 -------------
 
 ###Cosa sono i commenti
 
-I **Commenti ** sono uno dei modi per vedere quanto il sito ha successo.
+I **Commenti** sono uno dei modi per vedere quanto il sito ha successo.
 Vanno moderati nel senso cancellati o approvati per l'apparizione nel sito.
 
 Avanzate
