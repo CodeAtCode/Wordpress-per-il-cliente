@@ -31,7 +31,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 #Primo uso
 -------------
 
-###Come accedere al tuo nuovo sito
+##Come accedere al tuo nuovo sito
 
 Il tuo account è:_________________________________
 
@@ -39,16 +39,16 @@ La tua password è:_______________________________
 
 Per poter accedere devi andare a **iltuosito.it/wp-admin** e inserire questi dati e premere **Collegati**.
 
-###Cos'è la bacheca
+##Cos'è la bacheca
 
 La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato. Inoltre ti informa del numero di articoli e molto altro!
 
-###La barra laterale
+##La barra laterale
 
 Tramite la barra laterale sulla sinistra è possibile accedere a tutte le varie funzioni e opzioni di Wordpress. Dalla scrittura di **Articoli**, **Pagine** o **Gestione degli Iscritti**.
 Passando sopra ai vari link con il mouse è possibile accedere alle varie funzioni dall'aggiunta di un nuovo articolo o aggiungere nuovi link.
 
-###Come scrivere un articolo
+##Come scrivere un articolo
 
 Passando con il mouse sul link nella barra laterale **Articoli** si apre un piccolo menù, clicca su **Aggiungi nuovo**.
 
@@ -57,14 +57,14 @@ Nel piccolo campo in alto si scrive il titolo dell'articolo, è preferibile esse
 
 Sulla destra scorrendo la pagina è possibile impostare la/e **Categoria/e** che è obbligatorio scegliere per favorire **una navigazione completa** sia all'utente che al motore di ricerca (Google, Yahoo, Bing).
 
-###Cos'è l'immagine in evidenza
+##Cos'è l'immagine in evidenza
 
 Tramite questo box è possibile impostare l'immagine del post che a seconda del tema utilizzato nel sito verrà usata per la slide o semplicemente per l'immagine dell'articolo nella **Home**.
 
-Articoli
+#Articoli
 -------------
 
-###Le Bozze
+##Le Bozze
 
 Quando si scrive un articolo questo viene **salvato automaticamente** come bozza ma è possibile salvare l'articolo direttamente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.
 
@@ -74,7 +74,7 @@ Per **poterlo aprire come bozza** successivamente tramite la barra laterale anda
 In questa lista ci sono diversi link importanti: **Tutti**, **Pubblicati**, **Bozze**, **Cestinati**.
 Questi link appariranno se ci saranno degli articoli secondo il loro stato, quindi nel nostro caso basterà cliccare su **Bozze** per poter modificare il nostro articolo iniziato precedentemente.
 
-###Inserire foto negli articoli
+##Inserire foto negli articoli
 
 Per caricare una o più foto nell'articolo basta cliccare sul pulsante **Carica/Inserisci** sopra il box di scrittura.
 
@@ -83,45 +83,45 @@ Una volta che è stata caricata la foto può essere inserita nell'articolo clicc
 
 Fatto questo in basso c'è un pulsante **Inserisci immagine nell'articolo**, cliccandoci l'immagine verrà posizionata dove si trova il cursore di scrittura.
 
-###Cestino
+##Cestino
 
 Il comportamento del cestino è lo **stesso** di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino per una eventuale modifica.
 
-Pagine
+#Pagine
 -------------
 
-###Cosa sono
+##Cosa sono
 
 Le **pagine** sono un elemento importante all'interno di un sito perchè contengono quei contenuti aggiornati a lungo termine come i contatti, dove siamo, chi siamo, orari ecc.
 
 Come funzionalità le pagine sono uguali agli articoli tranne il supporto alle categorie.
 
-###Usarle con cautela
+##Usarle con cautela
 
 È **sconsigliato** avere troppe pagine ma allo stesso tempo è importante che siano complete di tutti i dettagli dovuti al loro titolo.
 Chi ha realizzato il sito avrà già creato delle pagine cercando di contenerne il numero per semplificare la navigazione dell'utente e per razionalizzarne i contenuti.
 
-Link
+#Link
 -------------
 
-###Aggiungere Link
+##Aggiungere Link
 
 I link vengono aggiunti a seconda della configurazione del sito in un box laterale o in una pagina.
 Per aggiungerli si fà come con gli articoli, sulla barra laterale andare sopra a **Link** e cliccare su **Aggiungi Nuovo**.
 In questa schermata riempire i vari campi seguendo la descrizione ricordandosi di aggiungere la categoria!
 
-Commenti
+#Commenti
 -------------
 
-###Cosa sono i commenti
+##Cosa sono i commenti
 
 I **Commenti** sono uno dei modi per vedere quanto il sito ha successo.
 Vanno moderati cioè cancellati o approvati per l'apparizione nel sito.
 
-Avanzate
+#Avanzate
 -------------
 
-###Aggiungere Album (NextGen)
+##Aggiungere Album (NextGen)
 
 Tramite la barra laterale cliccare su **Galleria** e poi su **aggiungi una nuova galleria**.
 
@@ -135,11 +135,11 @@ Una volta fatto andare in **Gestione galleria** presente nella barra laterale e 
 
 Compilare i vari campi tranne percorso, in **Collega alla pagina** scegliere **Foto**, scegliere la foto d'anteprima dell'album e premere **Salva modifiche**.
 
-###Backup
+##Backup
 
 Il backup del database è configurato per essere mandato ogni settimana all'email di ___________________.
 
-###Aggiungere un Evento (Event Manager)
+##Aggiungere un Evento (Event Manager)
 
 Tramite la barra laterale andare su **Eventi** e cliccare su **Aggiungi Evento**.
 
@@ -147,7 +147,7 @@ Vi troverete davanti una interfaccia simile a quella degli articoli con alcuni b
 
 Inoltre all'attivazione delle prenotazione sarà possibile impostare il numero dei partecipanti e il costo del biglietto.
 
-###Aggiungere un Luogo (Event Manager)
+##Aggiungere un Luogo (Event Manager)
 
 Sempre tramite la barra laterale andando su **Eventi** e poi su **Luoghi** ci troveremo davanti una schermata uguale alla **Lista degli Articoli**.
 Cliccando in alto su **Aggiungi luogo** ci troveremo, come sempre davanti ad una schermata uguale alla scrittura degli **Articoli**.
@@ -155,7 +155,7 @@ Cliccando in alto su **Aggiungi luogo** ci troveremo, come sempre davanti ad una
 Sarà presente un box **Dove** dove andranno messi i dati del luogo come indirizzo ecc che verranno utilizzati per mostrare anche la cartina di Google Maps.
 
 
-FAQ
+#FAQ
 -------------
 
 Contatti: mte90net@gmail.com
