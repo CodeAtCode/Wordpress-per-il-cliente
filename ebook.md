@@ -13,7 +13,9 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 * Articoli
 	* Le **Bozze**
 	* Inserire **foto** negli articoli
+	* Cestino
 * Pagine
+	* Cosa sono
 	* Usarle con **cautela**
 * Link
 	* Aggiungere **Link**
@@ -72,7 +74,28 @@ Per caricare una o più foto nell'articolo basta cliccare sul pulsante **Carica/
 Si aprirà una finestra dove è possibile trascinare i file o selezionarli.
 Una volta che è stata caricata la foto può essere inserita nell'articolo cliccandoci sopra nella lista altrimenti se è solamente una verrà subito scelta.
 Fatto questo in basso c'è un pulsante **Inserisci immagine nell'articolo**, cliccandoci l'immagine verrà posizionata dove si trova il cursore di scrittura.
-Questo metodo funziona anche con le pagine.
+
+Pagine
+-------------
+
+###Cosa sono
+
+Le **pagine** sono un elemento importante all'interno di un sito perchè contengono quei contenuti aggiornati a lungo termine come i contatti, dove siamo, chi siamo, orari ecc.
+Come funzionalità le pagine sono uguali agli articoli tranne il supporto alle categorie.
+
+###Usarle con cautela
+
+È **sconsigliato** avere troppe pagine ma allo stesso tempo è importante che siano complete di tutti i dettagli dovuti al titolo.
+Chi ha realizzato il sito avrà già creato delle pagine cercando di contenerne il numero per semplificare la navigazione dell'utente e per razionalizzare i contenuti.
+
+Link
+-------------
+
+###Aggiungere Link
+
+I link vengono aggiunti a seconda della configurazione del sito in un box laterale o in una pagina.
+Per aggiungerli si fà come con gli articoli, sulla barra laterale andare sopra a **Link** e cliccare su **Aggiungi Nuovo**.
+In questa schermata riempire i vari campi seguendo la descrizione ricordandosi di aggiungere la categoria!
 
 Commenti
 -------------
