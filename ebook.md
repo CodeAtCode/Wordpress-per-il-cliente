@@ -1,4 +1,4 @@
-Wordpress per il Cliente - Rev 0.0.1
+Wordpress per il Cliente - Rev 0.0.2
 =============
 http://mte90.github.com/Wordpress-per-il-cliente/
 ***
@@ -12,7 +12,9 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* Cos'è l' **Immagine in evidenza**
 * Articoli
 	* Le **Bozze**
+	* **Programmare gli Articoli**
 	* Inserire **foto** negli articoli
+	* Cosa sono i **tag**
 	* Cestino
 * Pagine
 	* Cosa sono
@@ -22,6 +24,8 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 * Commenti
 	* Cosa sono i **Commenti**
 * Avanzate
+	* Wordpress SEO (Yoast)
+	* Aggiungere una cartina (CodePeople Post Map)
 	* Aggiungere **Album** (NextGen)
 	* **Backup**
 	* Aggiungere un **Evento** (Event Manager)
@@ -66,13 +70,18 @@ Tramite questo box è possibile impostare l'immagine del post che a seconda del 
 
 ##Le Bozze
 
-Quando si scrive un articolo questo viene **salvato automaticamente** come bozza ma è possibile salvare l'articolo direttamente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.
-
+Quando si scrive un articolo questo viene **salvato automaticamente** come bozza ma è possibile salvare l'articolo direttamente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.  
 Per **salvarlo come bozza** sul box a destra nella pagina di scrittura dell'articolo c'è il pulsante **Salva come bozza**.
 Per **poterlo aprire come bozza** successivamente tramite la barra laterale andare su **Articoli** e cliccare su **Lista articoli**.
 
 In questa lista ci sono diversi link importanti: **Tutti**, **Pubblicati**, **Bozze**, **Cestinati**.
 Questi link appariranno se ci saranno degli articoli secondo il loro stato, quindi nel nostro caso basterà cliccare su **Bozze** per poter modificare il nostro articolo iniziato precedentemente.
+
+##Programmare gli Articoli
+Con programmare gli articoli su wordpress ci si riferisce alla possibilità di decidere quando verrà pubblicato automaticamente dal programma.  
+Questa semplice operazione si fà tramite il box presente sulla destra accanto a quello per scrivere l'articolo.  
+C'è una scritta **Pubblica subito** e accanto un pulsante **Modifica**. Premendo questo pulsante appariranno diversi campi in cui è possibile impostare mese,giorno e anno per non parlare dell'ora e dei minuti.  
+Una volta impostato come serve premendo sul pulsante **OK** l'articolo cambierà stato diventando non più **Bozza** o **Pubblicato** ma **Programmato** ed anche il pulsante **Pubblica** cambierà nome diventando **Programmato**.
 
 ##Inserire foto negli articoli
 
@@ -82,6 +91,10 @@ Si aprirà una finestra dove è possibile **trascinare i file o selezionarli**.
 Una volta che è stata caricata la foto può essere inserita nell'articolo cliccandoci sopra nella lista altrimenti se è solamente una verrà subito scelta.
 
 Fatto questo in basso c'è un pulsante **Inserisci immagine nell'articolo**, cliccandoci l'immagine verrà posizionata dove si trova il cursore di scrittura.
+
+##Cosa sono i tag
+I **tag** sono i vari termini chiave dell'articolo e permettono di indicizzarlo.  
+alcuni template li usano per correlare tra di loro più post per una facile ricerca.
 
 ##Cestino
 
@@ -120,6 +133,20 @@ Vanno moderati cioè cancellati o approvati per l'apparizione nel sito.
 
 #Avanzate
 -------------
+
+##Wordpress SEO (Yoast)
+Questo plugin permette di aggiungere in modo veloce quei campi da completare all'interno di ogni oggetto (Articolo, Pagina,Media ecc).  
+Aprendo qualunque di queste cose è presente un box sotto lo spazio di scrittura articoli.  
+Compilare questi campi è molto importante perchè come si può vedere **dall'anteprima** ci sarà un esempio di come verrà visualizzato l'articolo dai motori di ricerca.  
+Nel campo **Parola Chiave** inserisci il termine principale dell'articolo che dovrà essere contenuto possibilmente anche in **Titolo SEO** e in **Meta Description**.  
+**Titolo SEO** è un titolo alternativo che vorresti che fosse usato dai motori di ricerca al posto di quello impostato sopra.  
+**Meta Description** invece è il testo riassiuntivo dell'articolo in 150 caratteri che verrà mostrato dai motori di ricerca invece dei primi 150 caratteri dell'articolo.
+
+##Aggiungere una cartina (CodePeople Post Map)
+Sotto il box degli articoli è presente un box che permette di associare un posto al proprio articolo/pagina/ecc.  
+Nel campo **Location name** inserite il nome del posto (es: Palazzo del comune, Piazza Mario Rossi, Cinema), **Location Description** contiene una descrizione del posto che sarà mostrata al click sull'icona altrimenti verranno mostrata la prima riga dell'articolo.
+Il campo successivo permette di aggiugnere un'immagine al posto che verrà mostrata al click sull'icona.  
+I campi successivi sono i più importanti, in **Address** andrà inserito l'indirizzo con la città per verificare che il programma li trovi premete il pulsante **Verify**. In automatico la cartina cambierà e gli altri campi verrano aggiornati con informazioni più precise. se l'indirizzo trovato è sbagliato cancellare **Address**, **Latitude** e **Longitude** e riprovare finchè i campi non saranno corretti.
 
 ##Aggiungere Album (NextGen)
 

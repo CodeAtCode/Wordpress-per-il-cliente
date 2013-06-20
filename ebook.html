@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="ReText 3.1.3">
+  <meta name="generator" content="ReText 3.1.4">
   <title>ebook</title>
 </head>
 <body>
-<h1>Wordpress per il Cliente - Rev 0.0.1</h1>
+<h1>Wordpress per il Cliente - Rev 0.0.2</h1>
 <p>http://mte90.github.com/Wordpress-per-il-cliente/</p>
 <hr>
 <h1>Indice</h1>
@@ -21,7 +21,9 @@
 </li>
 <li>Articoli<ul>
 <li>Le <strong>Bozze</strong></li>
+<li><strong>Programmare gli Articoli</strong></li>
 <li>Inserire <strong>foto</strong> negli articoli</li>
+<li>Cosa sono i <strong>tag</strong></li>
 <li>Cestino</li>
 </ul>
 </li>
@@ -39,6 +41,8 @@
 </ul>
 </li>
 <li>Avanzate<ul>
+<li>Wordpress SEO (Yoast)</li>
+<li>Aggiungere una cartina (CodePeople Post Map)</li>
 <li>Aggiungere <strong>Album</strong> (NextGen)</li>
 <li><strong>Backup</strong></li>
 <li>Aggiungere un <strong>Evento</strong> (Event Manager)</li>
@@ -68,16 +72,24 @@ Nel piccolo campo in alto si scrive il titolo dell'articolo, è preferibile esse
 <h1>Articoli</h1>
 <hr>
 <h2>Le Bozze</h2>
-<p>Quando si scrive un articolo questo viene <strong>salvato automaticamente</strong> come bozza ma è possibile salvare l'articolo direttamente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.</p>
-<p>Per <strong>salvarlo come bozza</strong> sul box a destra nella pagina di scrittura dell'articolo c'è il pulsante <strong>Salva come bozza</strong>.
+<p>Quando si scrive un articolo questo viene <strong>salvato automaticamente</strong> come bozza ma è possibile salvare l'articolo direttamente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.<br>
+Per <strong>salvarlo come bozza</strong> sul box a destra nella pagina di scrittura dell'articolo c'è il pulsante <strong>Salva come bozza</strong>.
 Per <strong>poterlo aprire come bozza</strong> successivamente tramite la barra laterale andare su <strong>Articoli</strong> e cliccare su <strong>Lista articoli</strong>.</p>
 <p>In questa lista ci sono diversi link importanti: <strong>Tutti</strong>, <strong>Pubblicati</strong>, <strong>Bozze</strong>, <strong>Cestinati</strong>.
 Questi link appariranno se ci saranno degli articoli secondo il loro stato, quindi nel nostro caso basterà cliccare su <strong>Bozze</strong> per poter modificare il nostro articolo iniziato precedentemente.</p>
+<h2>Programmare gli Articoli</h2>
+<p>Con programmare gli articoli su wordpress ci si riferisce alla possibilità di decidere quando verrà pubblicato automaticamente dal programma.<br>
+Questa semplice operazione si fà tramite il box presente sulla destra accanto a quello per scrivere l'articolo.<br>
+C'è una scritta <strong>Pubblica subito</strong> e accanto un pulsante <strong>Modifica</strong>. Premendo questo pulsante appariranno diversi campi in cui è possibile impostare mese,giorno e anno per non parlare dell'ora e dei minuti.<br>
+Una volta impostato come serve premendo sul pulsante <strong>OK</strong> l'articolo cambierà stato diventando non più <strong>Bozza</strong> o <strong>Pubblicato</strong> ma <strong>Programmato</strong> ed anche il pulsante <strong>Pubblica</strong> cambierà nome diventando <strong>Programmato</strong>.</p>
 <h2>Inserire foto negli articoli</h2>
 <p>Per caricare una o più foto nell'articolo basta cliccare sul pulsante <strong>Carica/Inserisci</strong> sopra il box di scrittura.</p>
 <p>Si aprirà una finestra dove è possibile <strong>trascinare i file o selezionarli</strong>.
 Una volta che è stata caricata la foto può essere inserita nell'articolo cliccandoci sopra nella lista altrimenti se è solamente una verrà subito scelta.</p>
 <p>Fatto questo in basso c'è un pulsante <strong>Inserisci immagine nell'articolo</strong>, cliccandoci l'immagine verrà posizionata dove si trova il cursore di scrittura.</p>
+<h2>Cosa sono i tag</h2>
+<p>I <strong>tag</strong> sono i vari termini chiave dell'articolo e permettono di indicizzarlo.<br>
+alcuni template li usano per correlare tra di loro più post per una facile ricerca.</p>
 <h2>Cestino</h2>
 <p>Il comportamento del cestino è lo <strong>stesso</strong> di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino per una eventuale modifica.</p>
 <h1>Pagine</h1>
@@ -101,6 +113,18 @@ In questa schermata riempire i vari campi seguendo la descrizione ricordandosi d
 Vanno moderati cioè cancellati o approvati per l'apparizione nel sito.</p>
 <h1>Avanzate</h1>
 <hr>
+<h2>Wordpress SEO (Yoast)</h2>
+<p>Questo plugin permette di aggiungere in modo veloce quei campi da completare all'interno di ogni oggetto (Articolo, Pagina,Media ecc).<br>
+Aprendo qualunque di queste cose è presente un box sotto lo spazio di scrittura articoli.<br>
+Compilare questi campi è molto importante perchè come si può vedere <strong>dall'anteprima</strong> ci sarà un esempio di come verrà visualizzato l'articolo dai motori di ricerca.<br>
+Nel campo <strong>Parola Chiave</strong> inserisci il termine principale dell'articolo che dovrà essere contenuto possibilmente anche in <strong>Titolo SEO</strong> e in <strong>Meta Description</strong>.<br>
+<strong>Titolo SEO</strong> è un titolo alternativo che vorresti che fosse usato dai motori di ricerca al posto di quello impostato sopra.<br>
+<strong>Meta Description</strong> invece è il testo riassiuntivo dell'articolo in 150 caratteri che verrà mostrato dai motori di ricerca invece dei primi 150 caratteri dell'articolo.</p>
+<h2>Aggiungere una cartina (CodePeople Post Map)</h2>
+<p>Sotto il box degli articoli è presente un box che permette di associare un posto al proprio articolo/pagina/ecc.<br>
+Nel campo <strong>Location name</strong> inserite il nome del posto (es: Palazzo del comune, Piazza Mario Rossi, Cinema), <strong>Location Description</strong> contiene una descrizione del posto che sarà mostrata al click sull'icona altrimenti verranno mostrata la prima riga dell'articolo.
+Il campo successivo permette di aggiugnere un'immagine al posto che verrà mostrata al click sull'icona.<br>
+I campi successivi sono i più importanti, in <strong>Address</strong> andrà inserito l'indirizzo con la città per verificare che il programma li trovi premete il pulsante <strong>Verify</strong>. In automatico la cartina cambierà e gli altri campi verrano aggiornati con informazioni più precise. se l'indirizzo trovato è sbagliato cancellare <strong>Address</strong>, <strong>Latitude</strong> e <strong>Longitude</strong> e riprovare finchè i campi non saranno corretti.</p>
 <h2>Aggiungere Album (NextGen)</h2>
 <p>Tramite la barra laterale cliccare su <strong>Galleria</strong> e poi su <strong>aggiungi una nuova galleria</strong>.</p>
 <p>Impostare il nome della galleria usando dei - come spazi.
