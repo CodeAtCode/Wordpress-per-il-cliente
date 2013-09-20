@@ -33,13 +33,12 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 * FAQ
 
 #Primo uso
--------------
 
 ##Come accedere al tuo nuovo sito
 
-Il tuo account è:_________________________________
+Il tuo account è:
 
-La tua password è:_______________________________
+La tua password è:
 
 Per poter accedere devi andare a **iltuosito.it/wp-admin** e inserire questi dati e premere **Collegati**.
 
@@ -66,7 +65,6 @@ Sulla destra scorrendo la pagina è possibile impostare la/e **Categoria/e** che
 Tramite questo box è possibile impostare l'immagine del post che a seconda del tema utilizzato nel sito verrà usata per la slide o semplicemente per l'immagine dell'articolo nella **Home**.
 
 #Articoli
--------------
 
 ##Le Bozze
 
@@ -101,7 +99,6 @@ alcuni template li usano per correlare tra di loro più post per una facile rice
 Il comportamento del cestino è lo **stesso** di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino per una eventuale modifica.
 
 #Pagine
--------------
 
 ##Cosa sono
 
@@ -115,7 +112,6 @@ Come funzionalità le pagine sono uguali agli articoli tranne il supporto alle c
 Chi ha realizzato il sito avrà già creato delle pagine cercando di contenerne il numero per semplificare la navigazione dell'utente e per razionalizzarne i contenuti.
 
 #Link
--------------
 
 ##Aggiungere Link
 
@@ -132,7 +128,6 @@ I **Commenti** sono uno dei modi per vedere quanto il sito ha successo.
 Vanno moderati cioè cancellati o approvati per l'apparizione nel sito.
 
 #Avanzate
--------------
 
 ##Wordpress SEO (Yoast)
 Questo plugin permette di aggiungere in modo veloce quei campi da completare all'interno di ogni oggetto (Articolo, Pagina,Media ecc).  
@@ -183,7 +178,6 @@ Sarà presente un box **Dove** dove andranno messi i dati del luogo come indiriz
 
 
 #FAQ
--------------
 
 Contatti: mte90net@gmail.com
 
