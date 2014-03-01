@@ -1,4 +1,4 @@
-Wordpress per il Cliente - Rev 0.0.2
+Wordpress per il Cliente - Rev 0.0.3
 =============
 http://mte90.github.com/Wordpress-per-il-cliente/
 ***
@@ -30,6 +30,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* **Backup**
 	* Aggiungere un **Evento** (Event Manager)
 	* Aggiungere un **Luogo** (Event Manager)
+    * Usare AdRotate
 * FAQ
 
 #Primo uso
@@ -176,6 +177,34 @@ Cliccando in alto su **Aggiungi luogo** ci troveremo, come sempre davanti ad una
 
 Sarà presente un box **Dove** dove andranno messi i dati del luogo come indirizzo ecc che verranno utilizzati per mostrare anche la cartina di Google Maps.
 
+##Usare AdRotate
+
+La gestione dei banner si fà tramite questa finestra presente nel menù laterale sotto la voce Adrotate -> Manage Ads.  
+In questa finestra è possibile vedere tutti i banner presenti nel sistema e alcune informazioni come il numero di click ricevuti o di visualizzazioni.  
+### Creare un banner
+Per creare un banenr da questa finestra in alto è presente **Add new**. Cliccando su questo pulsante si entrerà in una finestra con moltissime impostazioni sul banner.  
+
+####I campi principali
+Il campo **Title** deve contenere il titolo del banner, per una maggiore identificazione in futuro conviene inserire anche dei dettagli sul banner stesso perchè questo titolo è quello che viene mostrato nella lista precedente.  
+Il campo **Ad Code** và inserito il codice del banner se:
+
+* Se si tratta di Google Adsense o di un'altro servizio di banner basta inserire il codice che viene fornito
+* Se si tratta di una immagine:  
+
+    * Se non ha link da associargli cliccare sull'esempio 1
+    * Se ha un link cliccare sull'esempio 2
+
+####Impostare una immagine
+Scorrere fino al campo **Banner image** premere sul pulsante **Select banner**. Da questa interfaccia caricare il banner e cliccare su **Insert banner**.
+
+####Impostare un link 
+Se si tratta di un'immagine con un link associato trovare il campo **Clicktracking**, mettere la spunta e inserire il link.
+
+####Schedulare un banner 
+In basso c'è un'area con delle impostazioni che permettono di impostare il periodo in cui il banner deve essere mostrato ed anche il massimo numero di click.  
+
+####Impostare il gruppo
+Con gruppo ci si riferisce ad un numero di banner che verrano mostrati un una zona specifica del sito. Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
 
 #FAQ
 
