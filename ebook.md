@@ -9,6 +9,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* Cos'è la **Bacheca**
 	* La **Barra laterale**
 	* Come scrivere un **Articolo**
+    * Cos'è lo **slug**
 	* Cos'è l' **Immagine in evidenza**
 * Articoli
 	* Le **Bozze**
@@ -41,25 +42,46 @@ Il tuo account è:
 
 La tua password è:
 
-Per poter accedere devi andare a **iltuosito.it/wp-admin** e inserire questi dati e premere **Collegati**.
+Per poter accedere devi andare a **iltuosito.it/wp-admin** e inserire questi dati e premere **Login**.
 
 ##Cos'è la bacheca
 
-La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato. Inoltre ti informa del numero di articoli e molto altro!
+La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato. Inoltre ti informa del numero di articoli e molto altro!  
+A seconda dei plugin installati puoi avere informazioni come le statistiche o il numero di download.
 
 ##La barra laterale
 
-Tramite la barra laterale sulla sinistra è possibile accedere a tutte le varie funzioni e opzioni di Wordpress. Dalla scrittura di **Articoli**, **Pagine** o **Gestione degli Iscritti**.
-Passando sopra ai vari link con il mouse è possibile accedere alle varie funzioni dall'aggiunta di un nuovo articolo o aggiungere nuovi link.
+Tramite la barra laterale sulla sinistra è possibile accedere a tutte le varie funzioni di Wordpress.  
+Passando sopra ai vari link con il mouse è possibile accedere alle varie funzioni dall'aggiunta di un nuovo articolo o approvare i commenti.  
+Le funzionalità base di Wordpress sono:  
+
+* Articoli
+* Media
+* Pagine
+* Commenti
+* Aspetto
+* Utenti
+* Strumenti
+* Impostazioni
+
+Inoltre a seconda della configurazione dell'utente alcune aree saranno nascoste o inaccessibili quindi sicurezza garantita al 100%.
 
 ##Come scrivere un articolo
 
 Passando con il mouse sul link nella barra laterale **Articoli** si apre un piccolo menù, clicca su **Aggiungi nuovo**.
 
-L'interfaccia è essenziale, sul grande box centrale è possibile scrivere il proprio articolo utilizzando la barra degli strumenti come in Word.
 Nel piccolo campo in alto si scrive il titolo dell'articolo, è preferibile essere chiari e brevi.
+L'interfaccia è essenziale, sul grande box centrale è possibile scrivere il proprio articolo utilizzando la barra degli strumenti come in Word.
 
-Sulla destra scorrendo la pagina è possibile impostare la/e **Categoria/e** che è obbligatorio scegliere per favorire **una navigazione completa** sia all'utente che al motore di ricerca (Google, Yahoo, Bing).
+Inoltre scorrendo la pagina è possibile impostare la/e **Categoria/e** che è obbligatorio scegliere per favorire **una navigazione completa** sia all'utente che al motore di ricerca (Google, Yahoo, Bing).
+
+##Cos'è lo slug
+
+Lo slug sono una serie di parole separate da trattini (al posto degli spazi) per creare una URL semplice per gli utenti ed anche per i motori di ricerca.  
+Qualche esempio:
+
+* Ciao mondo! - ciao-mondo
+* Sono un nuovo articolo - sono-nuovo-articolo
 
 ##Cos'è l'immagine in evidenza
 
@@ -93,7 +115,7 @@ Fatto questo in basso c'è un pulsante **Inserisci immagine nell'articolo**, cli
 
 ##Cosa sono i tag
 I **tag** sono i vari termini chiave dell'articolo e permettono di indicizzarlo.  
-alcuni template li usano per correlare tra di loro più post per una facile ricerca.
+Alcuni template li usano per correlare tra di loro più post per una facile ricerca.
 
 ##Cestino
 
