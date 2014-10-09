@@ -20,18 +20,16 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 * Pagine
 	* Cosa sono
 	* Usarle con **cautela**
-* Link
-	* Aggiungere **Link**
 * Commenti
 	* Cosa sono i **Commenti**
 * Avanzate
 	* Wordpress SEO (Yoast)
 	* Aggiungere una cartina (CodePeople Post Map)
 	* Aggiungere **Album** (NextGen)
-	* **Backup**
 	* Aggiungere un **Evento** (Event Manager)
 	* Aggiungere un **Luogo** (Event Manager)
     * Usare AdRotate
+	* **Backup**
 * FAQ
 
 #Primo uso
@@ -91,7 +89,7 @@ Tramite questo box è possibile impostare l'immagine del post che a seconda del 
 
 ##Le Bozze
 
-Quando si scrive un articolo questo viene **salvato automaticamente** come bozza ma è possibile salvare l'articolo direttamente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.  
+Quando si scrive un articolo questo viene **salvato automaticamente** come bozza ma è possibile salvarlo manualmente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.  
 Per **salvarlo come bozza** sul box a destra nella pagina di scrittura dell'articolo c'è il pulsante **Salva come bozza**.
 Per **poterlo aprire come bozza** successivamente tramite la barra laterale andare su **Articoli** e cliccare su **Lista articoli**.
 
@@ -99,7 +97,7 @@ In questa lista ci sono diversi link importanti: **Tutti**, **Pubblicati**, **Bo
 Questi link appariranno se ci saranno degli articoli secondo il loro stato, quindi nel nostro caso basterà cliccare su **Bozze** per poter modificare il nostro articolo iniziato precedentemente.
 
 ##Programmare gli Articoli
-Con programmare gli articoli su wordpress ci si riferisce alla possibilità di decidere quando verrà pubblicato automaticamente dal programma.  
+Con programmare gli articoli su Wordpress ci si riferisce alla possibilità di decidere quando verrà pubblicato automaticamente dal programma.  
 Questa semplice operazione si fà tramite il box presente sulla destra accanto a quello per scrivere l'articolo.  
 C'è una scritta **Pubblica subito** e accanto un pulsante **Modifica**. Premendo questo pulsante appariranno diversi campi in cui è possibile impostare mese,giorno e anno per non parlare dell'ora e dei minuti.  
 Una volta impostato come serve premendo sul pulsante **OK** l'articolo cambierà stato diventando non più **Bozza** o **Pubblicato** ma **Programmato** ed anche il pulsante **Pubblica** cambierà nome diventando **Programmato**.
@@ -119,7 +117,7 @@ Alcuni template li usano per correlare tra di loro più post per una facile rice
 
 ##Cestino
 
-Il comportamento del cestino è lo **stesso** di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino per una eventuale modifica.
+Il comportamento del cestino è lo **stesso** di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino.
 
 #Pagine
 
@@ -133,14 +131,6 @@ Come funzionalità le pagine sono uguali agli articoli tranne il supporto alle c
 
 È **sconsigliato** avere troppe pagine ma allo stesso tempo è importante che siano complete di tutti i dettagli dovuti al loro titolo.
 Chi ha realizzato il sito avrà già creato delle pagine cercando di contenerne il numero per semplificare la navigazione dell'utente e per razionalizzarne i contenuti.
-
-#Link
-
-##Aggiungere Link
-
-I link vengono aggiunti a seconda della configurazione del sito in un box laterale o in una pagina.
-Per aggiungerli si fà come con gli articoli, sulla barra laterale andare sopra a **Link** e cliccare su **Aggiungi Nuovo**.
-In questa schermata riempire i vari campi seguendo la descrizione ricordandosi di aggiungere la categoria!
 
 #Commenti
 -------------
@@ -158,13 +148,13 @@ Aprendo qualunque di queste cose è presente un box sotto lo spazio di scrittura
 Compilare questi campi è molto importante perchè come si può vedere **dall'anteprima** ci sarà un esempio di come verrà visualizzato l'articolo dai motori di ricerca.  
 Nel campo **Parola Chiave** inserisci il termine principale dell'articolo che dovrà essere contenuto possibilmente anche in **Titolo SEO** e in **Meta Description**.  
 **Titolo SEO** è un titolo alternativo che vorresti che fosse usato dai motori di ricerca al posto di quello impostato sopra.  
-**Meta Description** invece è il testo riassiuntivo dell'articolo in 150 caratteri che verrà mostrato dai motori di ricerca invece dei primi 150 caratteri dell'articolo.
+**Meta Description** invece è il testo riassuntivo dell'articolo in 150 caratteri che verrà mostrato dai motori di ricerca invece dei primi 150 caratteri dell'articolo.
 
 ##Aggiungere una cartina (CodePeople Post Map)
 Sotto il box degli articoli è presente un box che permette di associare un posto al proprio articolo/pagina/ecc.  
 Nel campo **Location name** inserite il nome del posto (es: Palazzo del comune, Piazza Mario Rossi, Cinema), **Location Description** contiene una descrizione del posto che sarà mostrata al click sull'icona altrimenti verranno mostrata la prima riga dell'articolo.
-Il campo successivo permette di aggiugnere un'immagine al posto che verrà mostrata al click sull'icona.  
-I campi successivi sono i più importanti, in **Address** andrà inserito l'indirizzo con la città per verificare che il programma li trovi premete il pulsante **Verify**. In automatico la cartina cambierà e gli altri campi verrano aggiornati con informazioni più precise. se l'indirizzo trovato è sbagliato cancellare **Address**, **Latitude** e **Longitude** e riprovare finchè i campi non saranno corretti.
+Il campo successivo permette di aggiungere un'immagine al posto che verrà mostrata al click sull'icona.  
+I campi successivi sono i più importanti, in **Address** andrà inserito l'indirizzo con la città per verificare che il programma li trovi premete il pulsante **Verify**. In automatico la cartina cambierà e gli altri campi verranno aggiornati con informazioni più precise. se l'indirizzo trovato è sbagliato cancellare **Address**, **Latitude** e **Longitude** e riprovare finchè i campi non saranno corretti.
 
 ##Aggiungere Album (NextGen)
 
@@ -179,10 +169,6 @@ Premere il pulsante **Carica immagini** e lasciare il sito a caricare le foto.
 Una volta fatto andare in **Gestione galleria** presente nella barra laterale e cliccare sull'album appena caricato.
 
 Compilare i vari campi tranne percorso, in **Collega alla pagina** scegliere **Foto**, scegliere la foto d'anteprima dell'album e premere **Salva modifiche**.
-
-##Backup
-
-Il backup del database è configurato per essere mandato ogni settimana all'email di ___________________.
 
 ##Aggiungere un Evento (Event Manager)
 
@@ -201,32 +187,37 @@ Sarà presente un box **Dove** dove andranno messi i dati del luogo come indiriz
 
 ##Usare AdRotate
 
-La gestione dei banner si fà tramite questa finestra presente nel menù laterale sotto la voce Adrotate -> Manage Ads.  
+La gestione dei banner si effettua tramite questa finestra presente nel menù laterale sotto la voce Adrotate -> Manage Ads.  
 In questa finestra è possibile vedere tutti i banner presenti nel sistema e alcune informazioni come il numero di click ricevuti o di visualizzazioni.  
 ### Creare un banner
-Per creare un banenr da questa finestra in alto è presente **Add new**. Cliccando su questo pulsante si entrerà in una finestra con moltissime impostazioni sul banner.  
+Per creare un banner da questa finestra in alto è presente **Add new**. Cliccando su questo pulsante si entrerà in una finestra con moltissime impostazioni sul banner.  
 
 ####I campi principali
 Il campo **Title** deve contenere il titolo del banner, per una maggiore identificazione in futuro conviene inserire anche dei dettagli sul banner stesso perchè questo titolo è quello che viene mostrato nella lista precedente.  
-Il campo **Ad Code** và inserito il codice del banner se:
+Nel campo **Ad Code** va inserito il codice del banner:
 
 * Se si tratta di Google Adsense o di un'altro servizio di banner basta inserire il codice che viene fornito
 * Se si tratta di una immagine:  
 
     * Se non ha link da associargli cliccare sull'esempio 1
-    * Se ha un link cliccare sull'esempio 2
+    * Se ha un link cliccare sull'esempio 2 modificando il link d'esempio presente con il vostro
 
 ####Impostare una immagine
 Scorrere fino al campo **Banner image** premere sul pulsante **Select banner**. Da questa interfaccia caricare il banner e cliccare su **Insert banner**.
 
 ####Impostare un link 
-Se si tratta di un'immagine con un link associato trovare il campo **Clicktracking**, mettere la spunta e inserire il link.
+Se si tratta di un'immagine con un link associato trovare il campo **Clicktracking** e mettere la spunta.
 
 ####Schedulare un banner 
 In basso c'è un'area con delle impostazioni che permettono di impostare il periodo in cui il banner deve essere mostrato ed anche il massimo numero di click.  
 
 ####Impostare il gruppo
-Con gruppo ci si riferisce ad un numero di banner che verrano mostrati un una zona specifica del sito. Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
+Con gruppo ci si riferisce ad un numero di banner che verranno mostrati un una zona specifica del sito (widget per esempio).  
+Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
+
+##Backup
+
+Il backup del database a seconda del tipo di hosting è automatico e salvato in posizioni diverse ma puoi stare tranquillo, viene effettuato.
 
 #FAQ
 
