@@ -1,5 +1,7 @@
 #Wordpress per il cliente
 
+Info sul progetto: http://wpandmore.info/wordpress-cliente-guida-open-source/
+
 Un semplice e-book da personalizzare secondo le proprie necessità da consegnare al cliente a sito finito per spiegargli come usarlo.
 
 #Come compilarlo
