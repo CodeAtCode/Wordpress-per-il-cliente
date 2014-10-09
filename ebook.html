@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="generator" content="ReText 4.1.1">
+<meta name="generator" content="ReText 5.0.0">
 <title>ebook</title>
 </head>
 <body>
-<h1>Wordpress per il Cliente - Rev 0.0.3</h1>
+<h1>Wordpress per il Cliente - Rev 0.0.4</h1>
 <p>http://mte90.github.com/Wordpress-per-il-cliente/</p>
 <hr>
 <h1>Indice</h1>
@@ -16,7 +16,9 @@
 <li>Cos'è la <strong>Bacheca</strong></li>
 <li>La <strong>Barra laterale</strong></li>
 <li>Come scrivere un <strong>Articolo</strong></li>
+<li>Cos'è lo <strong>slug</strong></li>
 <li>Cos'è l' <strong>Immagine in evidenza</strong></li>
+<li>Cosa sono le <strong>revisioni</strong></li>
 </ul>
 </li>
 <li>Articoli<ul>
@@ -32,22 +34,28 @@
 <li>Usarle con <strong>cautela</strong></li>
 </ul>
 </li>
-<li>Link<ul>
-<li>Aggiungere <strong>Link</strong></li>
-</ul>
-</li>
 <li>Commenti<ul>
 <li>Cosa sono i <strong>Commenti</strong></li>
+</ul>
+</li>
+<li>Ecommerce (WooCommerce)<ul>
+<li>Aggiungere un nuovo <strong>Prodotto</strong></li>
+<li>Prodotto variabile</li>
+<li>Gestire gli <strong>Ordini</strong></li>
+<li>Usare i <strong>Rapporti</strong></li>
+<li>Creare un <strong>Codice sconto</strong></li>
 </ul>
 </li>
 <li>Avanzate<ul>
 <li>Wordpress SEO (Yoast)</li>
 <li>Aggiungere una cartina (CodePeople Post Map)</li>
 <li>Aggiungere <strong>Album</strong> (NextGen)</li>
-<li><strong>Backup</strong></li>
 <li>Aggiungere un <strong>Evento</strong> (Event Manager)</li>
 <li>Aggiungere un <strong>Luogo</strong> (Event Manager)</li>
-<li>Usare AdRotate</li>
+<li>Usare <strong>AdRotate</strong></li>
+<li>Multilingua (Ceceppa Multilingua)</li>
+<li>Usare <strong>Google Analyticator</strong></li>
+<li><strong>Backup</strong></li>
 </ul>
 </li>
 <li>FAQ</li>
@@ -56,28 +64,51 @@
 <h2>Come accedere al tuo nuovo sito</h2>
 <p>Il tuo account è:</p>
 <p>La tua password è:</p>
-<p>Per poter accedere devi andare a <strong>iltuosito.it/wp-admin</strong> e inserire questi dati e premere <strong>Collegati</strong>.</p>
+<p>Per poter accedere devi andare a <strong>iltuosito.it/wp-admin</strong> e inserire questi dati e premere <strong>Login</strong>.</p>
 <h2>Cos'è la bacheca</h2>
-<p>La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato. Inoltre ti informa del numero di articoli e molto altro!</p>
+<p>La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato. Inoltre ti informa del numero di articoli e molto altro!<br>
+A seconda dei plugin installati puoi avere informazioni come le statistiche o il numero di download.</p>
 <h2>La barra laterale</h2>
-<p>Tramite la barra laterale sulla sinistra è possibile accedere a tutte le varie funzioni e opzioni di Wordpress. Dalla scrittura di <strong>Articoli</strong>, <strong>Pagine</strong> o <strong>Gestione degli Iscritti</strong>.
-Passando sopra ai vari link con il mouse è possibile accedere alle varie funzioni dall'aggiunta di un nuovo articolo o aggiungere nuovi link.</p>
+<p>Tramite la barra laterale sulla sinistra è possibile accedere a tutte le varie funzioni di Wordpress.<br>
+Passando sopra ai vari link con il mouse è possibile accedere alle varie funzioni dall'aggiunta di un nuovo articolo o approvare i commenti.<br>
+Le funzionalità base di Wordpress sono:  </p>
+<ul>
+<li>Articoli</li>
+<li>Media</li>
+<li>Pagine</li>
+<li>Commenti</li>
+<li>Aspetto</li>
+<li>Utenti</li>
+<li>Strumenti</li>
+<li>Impostazioni</li>
+</ul>
+<p>Inoltre a seconda della configurazione dell'utente alcune aree saranno nascoste o inaccessibili quindi sicurezza garantita al 100%.</p>
 <h2>Come scrivere un articolo</h2>
 <p>Passando con il mouse sul link nella barra laterale <strong>Articoli</strong> si apre un piccolo menù, clicca su <strong>Aggiungi nuovo</strong>.</p>
-<p>L'interfaccia è essenziale, sul grande box centrale è possibile scrivere il proprio articolo utilizzando la barra degli strumenti come in Word.
-Nel piccolo campo in alto si scrive il titolo dell'articolo, è preferibile essere chiari e brevi.</p>
-<p>Sulla destra scorrendo la pagina è possibile impostare la/e <strong>Categoria/e</strong> che è obbligatorio scegliere per favorire <strong>una navigazione completa</strong> sia all'utente che al motore di ricerca (Google, Yahoo, Bing).</p>
+<p>Nel piccolo campo in alto si scrive il titolo dell'articolo, è preferibile essere chiari e brevi.
+L'interfaccia è essenziale, sul grande box centrale è possibile scrivere il proprio articolo utilizzando la barra degli strumenti come in Word.</p>
+<p>Inoltre scorrendo la pagina è possibile impostare la/e <strong>Categoria/e</strong> che è obbligatorio scegliere per favorire <strong>una navigazione completa</strong> sia all'utente che al motore di ricerca (Google, Yahoo, Bing).</p>
+<h2>Cos'è lo slug</h2>
+<p>Lo slug sono una serie di parole separate da trattini (al posto degli spazi) per creare una URL semplice per gli utenti ed anche per i motori di ricerca.<br>
+Qualche esempio:</p>
+<ul>
+<li>Ciao mondo! - ciao-mondo</li>
+<li>Sono un nuovo articolo - sono-nuovo-articolo</li>
+</ul>
 <h2>Cos'è l'immagine in evidenza</h2>
 <p>Tramite questo box è possibile impostare l'immagine del post che a seconda del tema utilizzato nel sito verrà usata per la slide o semplicemente per l'immagine dell'articolo nella <strong>Home</strong>.</p>
+<h2>Cosa sono le revisioni</h2>
+<p>Le revisioni ti permettono di vedere le versioni precedenti della pagina con le differenze evidenziate.  In questo modo hai uno <strong>storico</strong> dell'articolo, pagina e così via.<br>
+Aprendo un'articolo nel box <strong>Pubblica</strong> ci sarà <em>Revisioni</em> facendo click su scorri potrai navigare nel tempo e vedere le varie versioni con le loro modifiche.</p>
 <h1>Articoli</h1>
 <h2>Le Bozze</h2>
-<p>Quando si scrive un articolo questo viene <strong>salvato automaticamente</strong> come bozza ma è possibile salvare l'articolo direttamente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.<br>
+<p>Quando si scrive un articolo questo viene <strong>salvato automaticamente</strong> come bozza ma è possibile salvarlo manualmente come bozza per non pubblicarlo sul sito immediatamente e finirlo in un secondo momento.<br>
 Per <strong>salvarlo come bozza</strong> sul box a destra nella pagina di scrittura dell'articolo c'è il pulsante <strong>Salva come bozza</strong>.
 Per <strong>poterlo aprire come bozza</strong> successivamente tramite la barra laterale andare su <strong>Articoli</strong> e cliccare su <strong>Lista articoli</strong>.</p>
 <p>In questa lista ci sono diversi link importanti: <strong>Tutti</strong>, <strong>Pubblicati</strong>, <strong>Bozze</strong>, <strong>Cestinati</strong>.
 Questi link appariranno se ci saranno degli articoli secondo il loro stato, quindi nel nostro caso basterà cliccare su <strong>Bozze</strong> per poter modificare il nostro articolo iniziato precedentemente.</p>
 <h2>Programmare gli Articoli</h2>
-<p>Con programmare gli articoli su wordpress ci si riferisce alla possibilità di decidere quando verrà pubblicato automaticamente dal programma.<br>
+<p>Con programmare gli articoli su Wordpress ci si riferisce alla possibilità di decidere quando verrà pubblicato automaticamente dal programma.<br>
 Questa semplice operazione si fà tramite il box presente sulla destra accanto a quello per scrivere l'articolo.<br>
 C'è una scritta <strong>Pubblica subito</strong> e accanto un pulsante <strong>Modifica</strong>. Premendo questo pulsante appariranno diversi campi in cui è possibile impostare mese,giorno e anno per non parlare dell'ora e dei minuti.<br>
 Una volta impostato come serve premendo sul pulsante <strong>OK</strong> l'articolo cambierà stato diventando non più <strong>Bozza</strong> o <strong>Pubblicato</strong> ma <strong>Programmato</strong> ed anche il pulsante <strong>Pubblica</strong> cambierà nome diventando <strong>Programmato</strong>.</p>
@@ -88,9 +119,9 @@ Una volta che è stata caricata la foto può essere inserita nell'articolo clicc
 <p>Fatto questo in basso c'è un pulsante <strong>Inserisci immagine nell'articolo</strong>, cliccandoci l'immagine verrà posizionata dove si trova il cursore di scrittura.</p>
 <h2>Cosa sono i tag</h2>
 <p>I <strong>tag</strong> sono i vari termini chiave dell'articolo e permettono di indicizzarlo.<br>
-alcuni template li usano per correlare tra di loro più post per una facile ricerca.</p>
+Alcuni template li usano per correlare tra di loro più post per una facile ricerca.</p>
 <h2>Cestino</h2>
-<p>Il comportamento del cestino è lo <strong>stesso</strong> di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino per una eventuale modifica.</p>
+<p>Il comportamento del cestino è lo <strong>stesso</strong> di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino.</p>
 <h1>Pagine</h1>
 <h2>Cosa sono</h2>
 <p>Le <strong>pagine</strong> sono un elemento importante all'interno di un sito perchè contengono quei contenuti aggiornati a lungo termine come i contatti, dove siamo, chi siamo, orari ecc.</p>
@@ -98,16 +129,32 @@ alcuni template li usano per correlare tra di loro più post per una facile rice
 <h2>Usarle con cautela</h2>
 <p>È <strong>sconsigliato</strong> avere troppe pagine ma allo stesso tempo è importante che siano complete di tutti i dettagli dovuti al loro titolo.
 Chi ha realizzato il sito avrà già creato delle pagine cercando di contenerne il numero per semplificare la navigazione dell'utente e per razionalizzarne i contenuti.</p>
-<h1>Link</h1>
-<h2>Aggiungere Link</h2>
-<p>I link vengono aggiunti a seconda della configurazione del sito in un box laterale o in una pagina.
-Per aggiungerli si fà come con gli articoli, sulla barra laterale andare sopra a <strong>Link</strong> e cliccare su <strong>Aggiungi Nuovo</strong>.
-In questa schermata riempire i vari campi seguendo la descrizione ricordandosi di aggiungere la categoria!</p>
 <h1>Commenti</h1>
 <hr>
 <h2>Cosa sono i commenti</h2>
 <p>I <strong>Commenti</strong> sono uno dei modi per vedere quanto il sito ha successo.
 Vanno moderati cioè cancellati o approvati per l'apparizione nel sito.</p>
+<h1>Ecommerce (WooCommerce)</h1>
+<hr>
+<h2>Aggiungere un nuovo Prodotto</h2>
+<p>Sulla barra laterale è presente un pulsante <strong>Prodotti</strong> andandoci con il mouse sopra apparirà <strong>Aggiungi un nuovo prodotto</strong>.<br>
+L'interfaccia e le funzionalità sono la medesime degli articoli quindi è molto semplice, ci sono dei nuovi box che permettono di:  </p>
+<ul>
+<li><strong>Galleria prodotto</strong>: se il tema lo supporta si potranno caricare più immagini, oltre a quella in evidenza, per mostrare una galleria sul prodotto. </li>
+<li><strong>Recensioni</strong>: ci permette di gestire le recensioni del prodotto come se fossero dei commenti</li>
+<li><strong>Dati prodotto</strong>: ci permette di impostare il prezzo, il tipo di spedizione, se ha un magazzino e molte altre cose.</li>
+</ul>
+<h2>Prodotto variabile</h2>
+<p>Il <strong>prodotto variabile</strong> ci permette di impostare delle alternative del prodotto come il colore o le dimensioni con variazioni di prezzo.<br>
+Prima di tutto và creato l'attributo del prodotto quindi nel box <strong>Dati prodotto</strong> facendo click su <strong>Attributi</strong> si potrà aggiungere un nuovo attributo con i vari valori disponibili <strong>divisi tra di loro da una |</strong>, esempio Nero | Blue | Marrone | Neutro. Ricordatevi di mettere la spunta in "Visibile nella pagina prodotto", se volete che il prezzo sia differente per i vari attributi spuntate anche "Usato nelle variazioni".<br>
+facendo click su <strong>Variazioni</strong>, sempre in questo box, potrete creare una nuova variazione col pulsante <strong>Aggiungi una variazione</strong> dove potrete impostare le varie informazioni dal codice al costo.</p>
+<h2>Gestire gli Ordini</h2>
+<p>Sul pulsante <strong>Woocommerce</strong> nella barra laterale andando su <strong>Ordini</strong> potrete visualizzare gli ordini e gestirli/visionarli in modo facile e veloce.  </p>
+<h2>Usare i Rapporti</h2>
+<p>I <strong>Rapporti</strong> permettono di avere delle statistiche con grafico di vendita dei prodotti a seconda del periodo, prodotto, categoria e buoni sconto ed esportare il tutto in formato <strong>CSV</strong> leggibile da Excel.<br>
+Inoltre si potranno avere delle statistiche sui <strong>Clienti</strong>, <strong>Magazzino</strong> e <strong>Tassazione</strong>.</p>
+<h2>Creare un Codice sconto</h2>
+<p>Sul pulsante <strong>Woocommerce</strong> nella barra laterale andando su <strong>Codici promozionali</strong> e facendo click su <strong>Aggiungi Codice Promozionale</strong> sarà possibile creare un codice sconto da distribuire in qui si potrà impostare la <strong>data di scadenza</strong>, le restrizioni ed i limiti d'uso (per esempio si potrà usare massimo 30 volte).</p>
 <h1>Avanzate</h1>
 <h2>Wordpress SEO (Yoast)</h2>
 <p>Questo plugin permette di aggiungere in modo veloce quei campi da completare all'interno di ogni oggetto (Articolo, Pagina,Media ecc).<br>
@@ -115,12 +162,12 @@ Aprendo qualunque di queste cose è presente un box sotto lo spazio di scrittura
 Compilare questi campi è molto importante perchè come si può vedere <strong>dall'anteprima</strong> ci sarà un esempio di come verrà visualizzato l'articolo dai motori di ricerca.<br>
 Nel campo <strong>Parola Chiave</strong> inserisci il termine principale dell'articolo che dovrà essere contenuto possibilmente anche in <strong>Titolo SEO</strong> e in <strong>Meta Description</strong>.<br>
 <strong>Titolo SEO</strong> è un titolo alternativo che vorresti che fosse usato dai motori di ricerca al posto di quello impostato sopra.<br>
-<strong>Meta Description</strong> invece è il testo riassiuntivo dell'articolo in 150 caratteri che verrà mostrato dai motori di ricerca invece dei primi 150 caratteri dell'articolo.</p>
+<strong>Meta Description</strong> invece è il testo riassuntivo dell'articolo in 150 caratteri che verrà mostrato dai motori di ricerca invece dei primi 150 caratteri dell'articolo.</p>
 <h2>Aggiungere una cartina (CodePeople Post Map)</h2>
 <p>Sotto il box degli articoli è presente un box che permette di associare un posto al proprio articolo/pagina/ecc.<br>
 Nel campo <strong>Location name</strong> inserite il nome del posto (es: Palazzo del comune, Piazza Mario Rossi, Cinema), <strong>Location Description</strong> contiene una descrizione del posto che sarà mostrata al click sull'icona altrimenti verranno mostrata la prima riga dell'articolo.
-Il campo successivo permette di aggiugnere un'immagine al posto che verrà mostrata al click sull'icona.<br>
-I campi successivi sono i più importanti, in <strong>Address</strong> andrà inserito l'indirizzo con la città per verificare che il programma li trovi premete il pulsante <strong>Verify</strong>. In automatico la cartina cambierà e gli altri campi verrano aggiornati con informazioni più precise. se l'indirizzo trovato è sbagliato cancellare <strong>Address</strong>, <strong>Latitude</strong> e <strong>Longitude</strong> e riprovare finchè i campi non saranno corretti.</p>
+Il campo successivo permette di aggiungere un'immagine al posto che verrà mostrata al click sull'icona.<br>
+I campi successivi sono i più importanti, in <strong>Address</strong> andrà inserito l'indirizzo con la città per verificare che il programma li trovi premete il pulsante <strong>Verify</strong>. In automatico la cartina cambierà e gli altri campi verranno aggiornati con informazioni più precise. se l'indirizzo trovato è sbagliato cancellare <strong>Address</strong>, <strong>Latitude</strong> e <strong>Longitude</strong> e riprovare finchè i campi non saranno corretti.</p>
 <h2>Aggiungere Album (NextGen)</h2>
 <p>Tramite la barra laterale cliccare su <strong>Galleria</strong> e poi su <strong>aggiungi una nuova galleria</strong>.</p>
 <p>Impostare il nome della galleria usando dei - come spazi.
@@ -129,8 +176,6 @@ Tutte le foto da caricare devono avere una <strong>risoluzione minore</strong> d
 <p>Premere il pulsante <strong>Carica immagini</strong> e lasciare il sito a caricare le foto.
 Una volta fatto andare in <strong>Gestione galleria</strong> presente nella barra laterale e cliccare sull'album appena caricato.</p>
 <p>Compilare i vari campi tranne percorso, in <strong>Collega alla pagina</strong> scegliere <strong>Foto</strong>, scegliere la foto d'anteprima dell'album e premere <strong>Salva modifiche</strong>.</p>
-<h2>Backup</h2>
-<p>Il backup del database è configurato per essere mandato ogni settimana all'email di <strong><em>_</em></strong><strong><em>_</em></strong>_____.</p>
 <h2>Aggiungere un Evento (Event Manager)</h2>
 <p>Tramite la barra laterale andare su <strong>Eventi</strong> e cliccare su <strong>Aggiungi Evento</strong>.</p>
 <p>Vi troverete davanti una interfaccia simile a quella degli articoli con alcuni box nuovi come <strong>Quando</strong> dove impostare il periodo dell'evento (essenziale!), in <strong>Dove</strong> potrete scegliere il luogo dell'evento, in <strong>Prenotazioni</strong> la possibilità di far prenotare l'evento agli iscritti al sito così da poter gestire il numero.</p>
@@ -140,31 +185,45 @@ Una volta fatto andare in <strong>Gestione galleria</strong> presente nella barr
 Cliccando in alto su <strong>Aggiungi luogo</strong> ci troveremo, come sempre davanti ad una schermata uguale alla scrittura degli <strong>Articoli</strong>.</p>
 <p>Sarà presente un box <strong>Dove</strong> dove andranno messi i dati del luogo come indirizzo ecc che verranno utilizzati per mostrare anche la cartina di Google Maps.</p>
 <h2>Usare AdRotate</h2>
-<p>La gestione dei banner si fà tramite questa finestra presente nel menù laterale sotto la voce Adrotate -&gt; Manage Ads.<br>
+<p>La gestione dei banner si effettua tramite questa finestra presente nel menù laterale sotto la voce Adrotate -&gt; Manage Ads.<br>
 In questa finestra è possibile vedere tutti i banner presenti nel sistema e alcune informazioni come il numero di click ricevuti o di visualizzazioni.  </p>
 <h3>Creare un banner</h3>
-<p>Per creare un banenr da questa finestra in alto è presente <strong>Add new</strong>. Cliccando su questo pulsante si entrerà in una finestra con moltissime impostazioni sul banner.  </p>
+<p>Per creare un banner da questa finestra in alto è presente <strong>Add new</strong>. Cliccando su questo pulsante si entrerà in una finestra con moltissime impostazioni sul banner.  </p>
 <h4>I campi principali</h4>
 <p>Il campo <strong>Title</strong> deve contenere il titolo del banner, per una maggiore identificazione in futuro conviene inserire anche dei dettagli sul banner stesso perchè questo titolo è quello che viene mostrato nella lista precedente.<br>
-Il campo <strong>Ad Code</strong> và inserito il codice del banner se:</p>
+Nel campo <strong>Ad Code</strong> va inserito il codice del banner:</p>
 <ul>
 <li>Se si tratta di Google Adsense o di un'altro servizio di banner basta inserire il codice che viene fornito</li>
 <li>
 <p>Se si tratta di una immagine:  </p>
 <ul>
 <li>Se non ha link da associargli cliccare sull'esempio 1</li>
-<li>Se ha un link cliccare sull'esempio 2</li>
+<li>Se ha un link cliccare sull'esempio 2 modificando il link d'esempio presente con il vostro</li>
 </ul>
 </li>
 </ul>
 <h4>Impostare una immagine</h4>
 <p>Scorrere fino al campo <strong>Banner image</strong> premere sul pulsante <strong>Select banner</strong>. Da questa interfaccia caricare il banner e cliccare su <strong>Insert banner</strong>.</p>
 <h4>Impostare un link</h4>
-<p>Se si tratta di un'immagine con un link associato trovare il campo <strong>Clicktracking</strong>, mettere la spunta e inserire il link.</p>
+<p>Se si tratta di un'immagine con un link associato trovare il campo <strong>Clicktracking</strong> e mettere la spunta.</p>
 <h4>Schedulare un banner</h4>
 <p>In basso c'è un'area con delle impostazioni che permettono di impostare il periodo in cui il banner deve essere mostrato ed anche il massimo numero di click.  </p>
 <h4>Impostare il gruppo</h4>
-<p>Con gruppo ci si riferisce ad un numero di banner che verrano mostrati un una zona specifica del sito. Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.</p>
+<p>Con gruppo ci si riferisce ad un numero di banner che verranno mostrati un una zona specifica del sito (widget per esempio).<br>
+Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.</p>
+<h2>Multilingua (Ceceppa Multilingua)</h2>
+<h3>Articoli, pagine ed altri tipi di articoli</h3>
+<p>Alla creazione di un nuovo articolo in alto a destra si potrà impostare la lingua dell'articolo in scrittura. Per esempio se è in <strong>Italiano o Inglese o entrambe le lingue</strong>.<br>
+In questo modo l'articolo <strong>sarà visualizzato sul sito a seconda della lingua scelta dall'utente</strong>. Per associargli l'articolo corrispondente nelle altre lingue si può fare dalla pagina di scrittura dell'articolo sullo stesso box in <strong>Traduzioni</strong> impostando l'articolo per le varie lingue semplicemente cercandolo.<br>
+Se invece l'articolo non esiste cliccando sempre in quel box sull'icona della matita verrà aperta una nuova pagina già impostata e collegata da scrivere.<br>
+Un'altro modo di creare l'articolo nelle altre lingue già collegato è farlo dall'elenco degli articoli cliccando sull'icona della matita sotto la bandiera della lingua desiderata.  </p>
+<h2>Categorie</h2>
+<p>Le categorie sono molto più semplici perchè basterà impostare durante la creazione il <strong>nome della categoria</strong> nelle altre lingue. Lo slug sarà lo stesso tra le due lingue semplificando la navigazione per l'utente.</p>
+<h2>Usare Google Analyticator</h2>
+<p>Questo plugin aggiunge alla <strong>Bacheca o Dashboard</strong> un widget che permette di avere un veloce resoconto di Google Analytics senza dover accedere al sito.<br>
+Si può impostare l'area di tempo e vedere le pagine più viste, i termini più cercati ed i siti di provenienza.</p>
+<h2>Backup</h2>
+<p>Il backup del database a seconda del tipo di hosting è automatico e salvato in posizioni diverse ma puoi stare tranquillo, viene effettuato.</p>
 <h1>FAQ</h1>
 <p>Contatti: mte90net@gmail.com</p>
 <p>Per migliorare l'eBook visita il sito <a href="http://mte90.github.com/Wordpress-per-il-cliente/">http://mte90.github.com/Wordpress-per-il-cliente/</a></p>
