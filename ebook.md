@@ -1,4 +1,4 @@
-Wordpress per il Cliente - Rev 0.0.3
+Wordpress per il Cliente - Rev 0.0.4
 =============
 http://mte90.github.com/Wordpress-per-il-cliente/
 ***
@@ -11,6 +11,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* Come scrivere un **Articolo**
     * Cos'è lo **slug**
 	* Cos'è l' **Immagine in evidenza**
+    * Cosa sono le **revisioni**
 * Articoli
 	* Le **Bozze**
 	* **Programmare gli Articoli**
@@ -22,13 +23,21 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 	* Usarle con **cautela**
 * Commenti
 	* Cosa sono i **Commenti**
+* Ecommerce (WooCommerce)
+    * Aggiungere un nuovo **Prodotto**
+    * Prodotto variabile
+    * Gestire gli **Ordini**
+    * Usare i **Rapporti**
+    * Creare un **Codice sconto**
 * Avanzate
 	* Wordpress SEO (Yoast)
 	* Aggiungere una cartina (CodePeople Post Map)
 	* Aggiungere **Album** (NextGen)
 	* Aggiungere un **Evento** (Event Manager)
 	* Aggiungere un **Luogo** (Event Manager)
-    * Usare AdRotate
+    * Usare **AdRotate**
+    * Multilingua (Ceceppa Multilingua)
+    * Usare **Google Analyticator**
 	* **Backup**
 * FAQ
 
@@ -85,6 +94,11 @@ Qualche esempio:
 
 Tramite questo box è possibile impostare l'immagine del post che a seconda del tema utilizzato nel sito verrà usata per la slide o semplicemente per l'immagine dell'articolo nella **Home**.
 
+##Cosa sono le revisioni
+
+Le revisioni ti permettono di vedere le versioni precedenti della pagina con le differenze evidenziate.  In questo modo hai uno **storico** dell'articolo, pagina e così via.  
+Aprendo un'articolo nel box **Pubblica** ci sarà *Revisioni* facendo click su scorri potrai navigare nel tempo e vedere le varie versioni con le loro modifiche.
+
 #Articoli
 
 ##Le Bozze
@@ -139,6 +153,37 @@ Chi ha realizzato il sito avrà già creato delle pagine cercando di contenerne 
 
 I **Commenti** sono uno dei modi per vedere quanto il sito ha successo.
 Vanno moderati cioè cancellati o approvati per l'apparizione nel sito.
+
+# Ecommerce (WooCommerce)
+-------------
+
+##Aggiungere un nuovo Prodotto
+
+Sulla barra laterale è presente un pulsante **Prodotti** andandoci con il mouse sopra apparirà **Aggiungi un nuovo prodotto**.  
+L'interfaccia e le funzionalità sono la medesime degli articoli quindi è molto semplice, ci sono dei nuovi box che permettono di:  
+
+* **Galleria prodotto**: se il tema lo supporta si potranno caricare più immagini, oltre a quella in evidenza, per mostrare una galleria sul prodotto. 
+* **Recensioni**: ci permette di gestire le recensioni del prodotto come se fossero dei commenti
+* **Dati prodotto**: ci permette di impostare il prezzo, il tipo di spedizione, se ha un magazzino e molte altre cose.
+
+##Prodotto variabile
+
+Il **prodotto variabile** ci permette di impostare delle alternative del prodotto come il colore o le dimensioni con variazioni di prezzo.  
+Prima di tutto và creato l'attributo del prodotto quindi nel box **Dati prodotto** facendo click su **Attributi** si potrà aggiungere un nuovo attributo con i vari valori disponibili **divisi tra di loro da una |**, esempio Nero | Blue | Marrone | Neutro. Ricordatevi di mettere la spunta in "Visibile nella pagina prodotto", se volete che il prezzo sia differente per i vari attributi spuntate anche "Usato nelle variazioni".  
+facendo click su **Variazioni**, sempre in questo box, potrete creare una nuova variazione col pulsante **Aggiungi una variazione** dove potrete impostare le varie informazioni dal codice al costo.
+
+##Gestire gli Ordini
+
+Sul pulsante **Woocommerce** nella barra laterale andando su **Ordini** potrete visualizzare gli ordini e gestirli/visionarli in modo facile e veloce.  
+
+## Usare i Rapporti
+
+I **Rapporti** permettono di avere delle statistiche con grafico di vendita dei prodotti a seconda del periodo, prodotto, categoria e buoni sconto ed esportare il tutto in formato **CSV** leggibile da Excel.  
+Inoltre si potranno avere delle statistiche sui **Clienti**, **Magazzino** e **Tassazione**.
+
+##Creare un Codice sconto
+
+Sul pulsante **Woocommerce** nella barra laterale andando su **Codici promozionali** e facendo click su **Aggiungi Codice Promozionale** sarà possibile creare un codice sconto da distribuire in qui si potrà impostare la **data di scadenza**, le restrizioni ed i limiti d'uso (per esempio si potrà usare massimo 30 volte).
 
 #Avanzate
 
@@ -214,6 +259,24 @@ In basso c'è un'area con delle impostazioni che permettono di impostare il peri
 ####Impostare il gruppo
 Con gruppo ci si riferisce ad un numero di banner che verranno mostrati un una zona specifica del sito (widget per esempio).  
 Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
+
+##Multilingua (Ceceppa Multilingua)
+
+###Articoli, pagine ed altri tipi di articoli
+
+Alla creazione di un nuovo articolo in alto a destra si potrà impostare la lingua dell'articolo in scrittura. Per esempio se è in **Italiano o Inglese o entrambe le lingue**.  
+In questo modo l'articolo **sarà visualizzato sul sito a seconda della lingua scelta dall'utente**. Per associargli l'articolo corrispondente nelle altre lingue si può fare dalla pagina di scrittura dell'articolo sullo stesso box in **Traduzioni** impostando l'articolo per le varie lingue semplicemente cercandolo.  
+Se invece l'articolo non esiste cliccando sempre in quel box sull'icona della matita verrà aperta una nuova pagina già impostata e collegata da scrivere.  
+Un'altro modo di creare l'articolo nelle altre lingue già collegato è farlo dall'elenco degli articoli cliccando sull'icona della matita sotto la bandiera della lingua desiderata.  
+
+##Categorie
+
+Le categorie sono molto più semplici perchè basterà impostare durante la creazione il **nome della categoria** nelle altre lingue. Lo slug sarà lo stesso tra le due lingue semplificando la navigazione per l'utente.
+
+##Usare Google Analyticator
+
+Questo plugin aggiunge alla **Bacheca o Dashboard** un widget che permette di avere un veloce resoconto di Google Analytics senza dover accedere al sito.  
+Si può impostare l'area di tempo e vedere le pagine più viste, i termini più cercati ed i siti di provenienza.
 
 ##Backup
 
