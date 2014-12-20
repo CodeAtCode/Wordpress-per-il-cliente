@@ -42,6 +42,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
 * FAQ
 
 #Primo uso
+-------------
 
 ##Come accedere al tuo nuovo sito
 
@@ -100,6 +101,7 @@ Le revisioni ti permettono di vedere le versioni precedenti della pagina con le 
 Aprendo un'articolo nel box **Pubblica** ci sarà *Revisioni* facendo click su scorri potrai navigare nel tempo e vedere le varie versioni con le loro modifiche.
 
 #Articoli
+-------------
 
 ##Le Bozze
 
@@ -134,6 +136,7 @@ Alcuni template li usano per correlare tra di loro più post per una facile rice
 Il comportamento del cestino è lo **stesso** di quello del proprio computer, gli articoli invece di essere eliminati vengono spostati lì per una eliminazione futura o un ripristino.
 
 #Pagine
+-------------
 
 ##Cosa sono
 
@@ -186,6 +189,7 @@ Inoltre si potranno avere delle statistiche sui **Clienti**, **Magazzino** e **T
 Sul pulsante **Woocommerce** nella barra laterale andando su **Codici promozionali** e facendo click su **Aggiungi Codice Promozionale** sarà possibile creare un codice sconto da distribuire in qui si potrà impostare la **data di scadenza**, le restrizioni ed i limiti d'uso (per esempio si potrà usare massimo 30 volte).
 
 #Avanzate
+-------------
 
 ##Wordpress SEO (Yoast)
 Questo plugin permette di aggiungere in modo veloce quei campi da completare all'interno di ogni oggetto (Articolo, Pagina,Media ecc).  
