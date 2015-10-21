@@ -1,4 +1,4 @@
-Wordpress per il Cliente - Rev 0.0.4
+Wordpress per il Cliente - Rev 0.0.5
 =============
 http://mte90.github.com/Wordpress-per-il-cliente/
 ***
