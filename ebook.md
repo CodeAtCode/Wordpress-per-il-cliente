@@ -29,14 +29,24 @@ http://mte90.github.com/Wordpress-per-il-cliente/
     * [Gestire gli **Ordini**](#ordini)
     * [Usare i **Rapporti**](#rapporti)
     * [Creare un **Codice sconto**](#codice-sconto)
+* [Rotazione Banner (AdRotate)](#adrotate)
+    * [Usare **AdRotate**](#adrotate-usare)
+    * [Creare un Banner](#adrotate-banner)
+    * [I campi principali](#adrotate-campo)
+    * [Impostare una immagine](#adrotate-img)
+    * [Impostare un link](#adrotate-link)
+    * [Schedulare un banner](#adrotate-schedule)
+    * [Impostare il gruppo](#adrotate-gruppo)
+* [Gestione eventi (Event Manager)](#event-manager)
+    * [Aggiungere un **Evento** (Event Manager)](#event-manager-aggiungere)
+	* [Aggiungere un **Luogo** (Event Manager)](#event-manager-luogo)
+* [Multilingua (Ceceppa Multilingua)](#multilingua)
+    * [Articoli, pagine ed altri tipi di articoli](#posttype)
+    * [Categorie](#categorie)
 * [Avanzate](#avanzate)
 	* [Wordpress SEO (Yoast)](#seo)
 	* [Aggiungere una cartina (CodePeople Post Map)](#post-map)
 	* [Aggiungere **Album** (NextGen)](#nextgen)
-	* [Aggiungere un **Evento** (Event Manager)](#event-manager)
-	* [Aggiungere un **Luogo** (Event Manager)](#event-manager-luogo)
-    * [Usare **AdRotate**](#adrotate)
-    * [Multilingua (Ceceppa Multilingua)](#multilingua)
     * [Usare **Google Analyticator**](#google-analyticator)
 	* [**Backup**](#backup)
 * [FAQ](#faq)
@@ -188,6 +198,72 @@ Inoltre si potranno avere delle statistiche sui **Clienti**, **Magazzino** e **T
 
 Sul pulsante **Woocommerce** nella barra laterale andando su **Codici promozionali** e facendo click su **Aggiungi Codice Promozionale** sarà possibile creare un codice sconto da distribuire in qui si potrà impostare la **data di scadenza**, le restrizioni ed i limiti d'uso (per esempio si potrà usare massimo 30 volte).
 
+#<a name="adrotate"></a>Rotazione Banner (AdRotate)
+-------------
+
+##<a name="adrotate-usare"></a>Usare AdRotate
+
+La gestione dei banner si effettua tramite questa finestra presente nel menù laterale sotto la voce Adrotate -> Manage Ads.  
+In questa finestra è possibile vedere tutti i banner presenti nel sistema e alcune informazioni come il numero di click ricevuti o di visualizzazioni.  
+
+##<a name="adrotate-banner"></a>Creare un banner
+Per creare un banner da questa finestra in alto è presente **Add new**. Cliccando su questo pulsante si entrerà in una finestra con moltissime impostazioni sul banner.  
+
+##<a name="adrotate-campo"></a>I campi principali
+Il campo **Title** deve contenere il titolo del banner, per una maggiore identificazione in futuro conviene inserire anche dei dettagli sul banner stesso perchè questo titolo è quello che viene mostrato nella lista precedente.  
+Nel campo **Ad Code** va inserito il codice del banner:
+
+* Se si tratta di Google Adsense o di un'altro servizio di banner basta inserire il codice che viene fornito
+* Se si tratta di una immagine:  
+
+    * Se non ha link da associargli cliccare sull'esempio 1
+    * Se ha un link cliccare sull'esempio 2 modificando il link d'esempio presente con il vostro
+
+a name="adrotate-img"></a>Impostare una immagine
+Scorrere fino al campo **Banner image** premere sul pulsante **Select banner**. Da questa interfaccia caricare il banner e cliccare su **Insert banner**.
+
+##<a name="adrotate-link"></a>Impostare un link 
+Se si tratta di un'immagine con un link associato trovare il campo **Clicktracking** e mettere la spunta.
+
+##<a name="adrotate-schedule"></a>Schedulare un banner 
+In basso c'è un'area con delle impostazioni che permettono di impostare il periodo in cui il banner deve essere mostrato ed anche il massimo numero di click.  
+
+##<a name="adrotate-gruppo"></a>Impostare il gruppo
+Con gruppo ci si riferisce ad un numero di banner che verranno mostrati un una zona specifica del sito (widget per esempio).  
+Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
+
+#<a name="event-manager"></a>Gestione eventi (Event Manager)
+-------------
+
+##<a name="event-manager-aggiungere"></a>Aggiungere un Evento (Event Manager)
+
+Tramite la barra laterale andare su **Eventi** e cliccare su **Aggiungi Evento**.
+
+Vi troverete davanti una interfaccia simile a quella degli articoli con alcuni box nuovi come **Quando** dove impostare il periodo dell'evento (essenziale!), in **Dove** potrete scegliere il luogo dell'evento, in **Prenotazioni** la possibilità di far prenotare l'evento agli iscritti al sito così da poter gestire il numero.
+
+Inoltre all'attivazione delle prenotazione sarà possibile impostare il numero dei partecipanti e il costo del biglietto.
+
+##<a name="event-manager-luogo"></a>Aggiungere un Luogo (Event Manager)
+
+Sempre tramite la barra laterale andando su **Eventi** e poi su **Luoghi** ci troveremo davanti una schermata uguale alla **Lista degli Articoli**.
+Cliccando in alto su **Aggiungi luogo** ci troveremo, come sempre davanti ad una schermata uguale alla scrittura degli **Articoli**.
+
+Sarà presente un box **Dove** dove andranno messi i dati del luogo come indirizzo ecc che verranno utilizzati per mostrare anche la cartina di Google Maps.
+
+#<a name="multilingua"></a>Multilingua (Ceceppa Multilingua)
+-------------
+
+###<a name="posttype"></a>Articoli, pagine ed altri tipi di articoli
+
+Alla creazione di un nuovo articolo in alto a destra si potrà impostare la lingua dell'articolo in scrittura. Per esempio se è in **Italiano o Inglese o entrambe le lingue**.  
+In questo modo l'articolo **sarà visualizzato sul sito a seconda della lingua scelta dall'utente**. Per associargli l'articolo corrispondente nelle altre lingue si può fare dalla pagina di scrittura dell'articolo sullo stesso box in **Traduzioni** impostando l'articolo per le varie lingue semplicemente cercandolo.  
+Se invece l'articolo non esiste cliccando sempre in quel box sull'icona della matita verrà aperta una nuova pagina già impostata e collegata da scrivere.  
+Un'altro modo di creare l'articolo nelle altre lingue già collegato è farlo dall'elenco degli articoli cliccando sull'icona della matita sotto la bandiera della lingua desiderata.  
+
+###<a name="categorie"></a>Categorie
+
+Le categorie sono molto più semplici perchè basterà impostare durante la creazione il **nome della categoria** nelle altre lingue. Lo slug sarà lo stesso tra le due lingue semplificando la navigazione per l'utente.
+
 #<a name="avanzate"></a>Avanzate
 -------------
 
@@ -218,65 +294,6 @@ Premere il pulsante **Carica immagini** e lasciare il sito a caricare le foto.
 Una volta fatto andare in **Gestione galleria** presente nella barra laterale e cliccare sull'album appena caricato.
 
 Compilare i vari campi tranne percorso, in **Collega alla pagina** scegliere **Foto**, scegliere la foto d'anteprima dell'album e premere **Salva modifiche**.
-
-##<a name="event-manager"></a>Aggiungere un Evento (Event Manager)
-
-Tramite la barra laterale andare su **Eventi** e cliccare su **Aggiungi Evento**.
-
-Vi troverete davanti una interfaccia simile a quella degli articoli con alcuni box nuovi come **Quando** dove impostare il periodo dell'evento (essenziale!), in **Dove** potrete scegliere il luogo dell'evento, in **Prenotazioni** la possibilità di far prenotare l'evento agli iscritti al sito così da poter gestire il numero.
-
-Inoltre all'attivazione delle prenotazione sarà possibile impostare il numero dei partecipanti e il costo del biglietto.
-
-##<a name="event-manager-luogo"></a>Aggiungere un Luogo (Event Manager)
-
-Sempre tramite la barra laterale andando su **Eventi** e poi su **Luoghi** ci troveremo davanti una schermata uguale alla **Lista degli Articoli**.
-Cliccando in alto su **Aggiungi luogo** ci troveremo, come sempre davanti ad una schermata uguale alla scrittura degli **Articoli**.
-
-Sarà presente un box **Dove** dove andranno messi i dati del luogo come indirizzo ecc che verranno utilizzati per mostrare anche la cartina di Google Maps.
-
-##<a name="adrotate"></a>Usare AdRotate
-
-La gestione dei banner si effettua tramite questa finestra presente nel menù laterale sotto la voce Adrotate -> Manage Ads.  
-In questa finestra è possibile vedere tutti i banner presenti nel sistema e alcune informazioni come il numero di click ricevuti o di visualizzazioni.  
-
-###<a name="adrotate-banner"></a>Creare un banner
-Per creare un banner da questa finestra in alto è presente **Add new**. Cliccando su questo pulsante si entrerà in una finestra con moltissime impostazioni sul banner.  
-
-####<a name="adrotate-campo"></a>I campi principali
-Il campo **Title** deve contenere il titolo del banner, per una maggiore identificazione in futuro conviene inserire anche dei dettagli sul banner stesso perchè questo titolo è quello che viene mostrato nella lista precedente.  
-Nel campo **Ad Code** va inserito il codice del banner:
-
-* Se si tratta di Google Adsense o di un'altro servizio di banner basta inserire il codice che viene fornito
-* Se si tratta di una immagine:  
-
-    * Se non ha link da associargli cliccare sull'esempio 1
-    * Se ha un link cliccare sull'esempio 2 modificando il link d'esempio presente con il vostro
-
-####<a name="adrotate-img"></a>Impostare una immagine
-Scorrere fino al campo **Banner image** premere sul pulsante **Select banner**. Da questa interfaccia caricare il banner e cliccare su **Insert banner**.
-
-####<a name="adrotate-link"></a>Impostare un link 
-Se si tratta di un'immagine con un link associato trovare il campo **Clicktracking** e mettere la spunta.
-
-####<a name="adrotate-schedule"></a>Schedulare un banner 
-In basso c'è un'area con delle impostazioni che permettono di impostare il periodo in cui il banner deve essere mostrato ed anche il massimo numero di click.  
-
-####<a name="adrotate-gruppo"></a>Impostare il gruppo
-Con gruppo ci si riferisce ad un numero di banner che verranno mostrati un una zona specifica del sito (widget per esempio).  
-Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
-
-##<a name="adrotate-multilingua"></a>Multilingua (Ceceppa Multilingua)
-
-###<a name="posttype"></a>Articoli, pagine ed altri tipi di articoli
-
-Alla creazione di un nuovo articolo in alto a destra si potrà impostare la lingua dell'articolo in scrittura. Per esempio se è in **Italiano o Inglese o entrambe le lingue**.  
-In questo modo l'articolo **sarà visualizzato sul sito a seconda della lingua scelta dall'utente**. Per associargli l'articolo corrispondente nelle altre lingue si può fare dalla pagina di scrittura dell'articolo sullo stesso box in **Traduzioni** impostando l'articolo per le varie lingue semplicemente cercandolo.  
-Se invece l'articolo non esiste cliccando sempre in quel box sull'icona della matita verrà aperta una nuova pagina già impostata e collegata da scrivere.  
-Un'altro modo di creare l'articolo nelle altre lingue già collegato è farlo dall'elenco degli articoli cliccando sull'icona della matita sotto la bandiera della lingua desiderata.  
-
-##<a name="categorie"></a>Categorie
-
-Le categorie sono molto più semplici perchè basterà impostare durante la creazione il **nome della categoria** nelle altre lingue. Lo slug sarà lo stesso tra le due lingue semplificando la navigazione per l'utente.
 
 ##<a name="google-analyticator"></a>Usare Google Analyticator
 
