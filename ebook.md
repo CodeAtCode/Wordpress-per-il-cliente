@@ -12,6 +12,7 @@ http://mte90.github.com/Wordpress-per-il-cliente/
     * [Cos'è lo **slug**](#slug)
 	* [Cos'è l' **Immagine in evidenza**](#immagine-evidenza)
     * [Cosa sono le **revisioni**](#revisioni)
+    * [Cosa sono i ruoli](#ruoli)
 * [Articoli](#articoli)
 	* [Le **Bozze**](#bozze)
 	* [**Programmare gli Articoli**](#articoli-programmare)
@@ -110,6 +111,10 @@ Tramite questo box è possibile impostare l'immagine del post che a seconda del 
 Le revisioni ti permettono di vedere le versioni precedenti della pagina con le differenze evidenziate.  In questo modo hai uno **storico** dell'articolo, pagina e così via.  
 Aprendo un'articolo nel box **Pubblica** ci sarà *Revisioni* facendo click su scorri potrai navigare nel tempo e vedere le varie versioni con le loro modifiche.
 
+##<a name="ruoli"></a>Cosa sono i ruoli
+
+Ogni account puó avere un ruolo o piú di uno e gli permette di accedere solo ad alcune parti delle funzionalità. Infatti gli account Editor possono modificare anche gli articoli o post type altrui mentre gli autori possono solo scriverli. Gli amministratori invece hanno tutti i permessi per gestire completamente il sistema. 
+
 #<a name="articoli"></a>Articoli
 -------------
 
@@ -124,7 +129,7 @@ Questi link appariranno se ci saranno degli articoli secondo il loro stato, quin
 
 ##<a name="articoli-programmare"></a>Programmare gli Articoli
 Con programmare gli articoli su Wordpress ci si riferisce alla possibilità di decidere quando verrà pubblicato automaticamente dal programma.  
-Questa semplice operazione si fà tramite il box presente sulla destra accanto a quello per scrivere l'articolo.  
+Questa semplice operazione si fa tramite il box presente sulla destra accanto a quello per scrivere l'articolo.  
 C'è una scritta **Pubblica subito** e accanto un pulsante **Modifica**. Premendo questo pulsante appariranno diversi campi in cui è possibile impostare mese,giorno e anno per non parlare dell'ora e dei minuti.  
 Una volta impostato come serve premendo sul pulsante **OK** l'articolo cambierà stato diventando non più **Bozza** o **Pubblicato** ma **Programmato** ed anche il pulsante **Pubblica** cambierà nome diventando **Programmato**.
 
